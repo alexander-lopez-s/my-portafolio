@@ -1,10 +1,12 @@
-# Name of project
+# My personal portafolio
 
-> A longer description
+> This is my personal portafolio website designed to showcase my work, my
+> projects and to share my experience as Junior Web Developer. This site is
+> built using HTML, CSS, and JavaScript.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [My personal portafolio](#my-personal-portafolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
