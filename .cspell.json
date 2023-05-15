@@ -21,7 +21,8 @@
     "Colryut",
     "Brugge",
     "Oostende",
-    "surroundings"
+    "surroundings",
+    "divs"
   ],
   "ignorePaths": [
     "node_modules/**",
