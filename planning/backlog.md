@@ -14,19 +14,12 @@
 
 ### :clipboard: Personal data
 
-- [ ] As a user I can see the personal information of the owner of the
-      portafolio.
+- [ ] As a user I can see specific personal data of the owner of the portafolio.
   - _There is basic data of the person who owns the portafolio._
 
 ### :musical_keyboard: Interests
 
 - [ ] As a user I can see the interests of the creator described.
-  - _There is a list of interests of the owner of the portafolio._
-
-### :file_folder: Personal information
-
-- [ ] As a user I can see the interests of the creator described.
-
   - _There is a list of interests of the owner of the portafolio._
 
 ### :mortar_board: Biography
