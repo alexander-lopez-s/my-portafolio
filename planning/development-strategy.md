@@ -1,55 +1,27 @@
-# Project Name
+# My personal portafolio
 
-<!-- describe your project -->
+Showcasing my work and projects as Junior Web Developer
 
 ---
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create a new repo from the template `html-css-starter`
+- Protect `main` branch
+- Turn on github pages
+- Turn on discussions
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+## Strategy
 
-## user story
-
-<!-- each issue created from this section will have the `for: user story` label -->
-
-> "as a ... i can ... so that ..."
-
-<!-- write any extra notes or description -->
-
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
-
-### Logic: user story
-
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Interface: user story
-
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Interaction: user story
-
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Documentation: user story
-
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+| FEATURE            | AS A USER I CAN...                             | HTML                                                       | CSS                                                                                 |
+| ------------------ | ---------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Portafolio's title | - Read the name of the portafolio's owner      | - Add `header` and `h1` tag. - Add class `header`          | - Add `font-weight` property <br> - Insert a Google Font                            |
+| Photo              | - See the photo of the owner of the portafolio | - Insert image `img` <br> - Add class `photo`              | - Resize image <br> - Use `transform`, `translate` properties                       |
+| Personal data      | - Find some personal information               | - Add `ul` and `li` tags                                   | - Style the list <br> - Remove list decorations                                     |
+|                    | - See the social media contacts                | - Add class `social-icons` <br> - Link the icons           | - Style the icons                                                                   |
+| Interests          | - Find the interests of the creator            | - Insert some images `img` <br> - Assign class `interests` | - Add animations                                                                    |
+| Biography          | - See a brief biography                        | - Add sections `biography` and `studies`                   | - Center divs <br> - Style biography <br> - Style studies                           |
+| Skills             | - Read the skills of the web developer         | - Insert a list `ul`, `li` with the skills                 | - Style the list <br> - Remove list decorations <br> - Add `border-radius` property |
+| Repositories       | - View some of the completed projects          | - Add some of the GitHub projects with `ul`, `li` tags     | - Add transitions <br> - Add animations                                             |
