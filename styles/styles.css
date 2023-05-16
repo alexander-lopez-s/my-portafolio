@@ -68,7 +68,7 @@
   z-index: 2;
 }
 
-.photo {
+.photo-container img {
   width: 210px;
   height: 300px;
   border-radius: 10px;
@@ -90,7 +90,37 @@
 /** Social media icons styling **/
 
 .social-media-icons {
-  min-width: 60%;
   display: inline;
-  background-color: rgb(134, 129, 129);
+  text-align: left;
+  justify-content: space-evenly;
+  margin: 10px;
+  min-width: 60%;
+  padding-left: 10px;
+}
+
+.social-media-icons img {
+  height: 35px;
+  width: 35px;
+}
+
+.social-media-icons a {
+  margin: 5px;
+}
+
+/** Interests section styling **/
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+}
+
+/** Animations CSS **/
+
+.photo-container img:hover {
+  filter: grayscale(75%);
+}
+
+.social-media-icons img:hover {
+  filter: hue-rotate(180deg);
 }
