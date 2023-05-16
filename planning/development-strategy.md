@@ -17,7 +17,7 @@ Showcasing my work and projects as Junior Web Developer
 
 | FEATURE            | AS A USER I CAN...                             | HTML                                                       | CSS                                                                                 |
 | ------------------ | ---------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| Portafolio's title | - Read the name of the portafolio's owner      | - Add `header` and `h1` tag. - Add class `header`          | - Add `font-weight` property <br> - Insert a Google Font                            |
+| Portafolio's title | - Read the name of the portafolio's owner      | - Add `header` and `h1` tag. <br> - Add class `header`     | - Add `font-weight` property <br> - Insert a Google Font                            |
 | Photo              | - See the photo of the owner of the portafolio | - Insert image `img` <br> - Add class `photo`              | - Resize image <br> - Use `transform`, `translate` properties                       |
 | Personal data      | - Find some personal information               | - Add `ul` and `li` tags                                   | - Style the list <br> - Remove list decorations                                     |
 |                    | - See the social media contacts                | - Add class `social-icons` <br> - Link the icons           | - Style the icons                                                                   |
