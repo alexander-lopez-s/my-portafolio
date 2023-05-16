@@ -15,7 +15,8 @@
   flex-direction: row;
   min-width: 100%;
   min-height: auto;
-  background-color: #8d91ff;
+  background-image: url("../public/aurora.avif");
+  background-size: cover;
 }
 
 .summary-container {
@@ -23,13 +24,12 @@
   flex-direction: column;
   min-width: 550px;
   min-height: auto;
-  background-color: #8d91ff;
 }
 
 .title-photo-container {
   display: flex;
   width: 400px;
-  height: 600px;
+  height: 610px;
   margin: 40px;
   background-color: hsl(47, 77%, 54%);
   border-radius: 10px;
@@ -81,6 +81,7 @@
 .specific-info {
   list-style-type: none;
   margin-left: 20px;
+  line-height: 30px;
 }
 
 .specific-info li {
@@ -112,9 +113,8 @@
 
 .interests-container {
   background-color: rgb(25, 27, 26);
-  padding: 5px;
   border-radius: 10px;
-  margin-top: 12px;
+  margin-top: 5px;
   height: 100%;
   color: white;
 }
