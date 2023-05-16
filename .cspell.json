@@ -22,7 +22,8 @@
     "Brugge",
     "Oostende",
     "surroundings",
-    "divs"
+    "divs",
+    "Cristobal"
   ],
   "ignorePaths": [
     "node_modules/**",
