@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
 
 * {
   padding: 0;
@@ -6,6 +7,8 @@
   box-sizing: border-box;
   font-family: "Itim", cursive;
 }
+
+/** Header styling **/
 
 .main-container {
   display: flex;
@@ -18,26 +21,73 @@
 .summary-container {
   display: flex;
   flex-direction: column;
-  min-width: 450px;
+  min-width: 550px;
   min-height: auto;
-  background-color: #f5df92;
+  background-color: #8d91ff;
 }
 
 .title-photo-container {
   display: flex;
-  min-width: 40%;
+  width: 400px;
+  height: 500px;
   margin: 40px;
-  background-color: #e4bd30;
+  background-color: hsl(47, 77%, 54%);
+  border-radius: 10px;
+  box-shadow: rgba(0.1, 0.1, 0.1, 0.35) 1px 5px 15px;
 }
 
 .title {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 20px;
 }
 
 .title h1 {
+  color: #f2f2f2;
+  background: #ff4a4a;
+  font-size: 30px;
   font-weight: 700;
-  font-size: 40px;
+  padding: 10px;
+  font-family: "Libre Baskerville", serif;
 }
+
+.title h2 {
+  margin-left: 20px;
+  padding: 1px;
+  font-family: "Titilium-web", sans-serif;
+}
+
+.photo-container {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin-left: 5px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+  z-index: 2;
+}
+
+.photo {
+  width: 210px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0.1, 0.1, 0.1, 0.35) 1px 5px 15px;
+}
+
+/** Personal info list styling **/
+
+.specific-info {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.specific-info li {
+  font-size: 17px;
+  font-family: "Titilium-web", sans-serif;
+}
+
+/** Social media icons styling **/
 
 .social-media-icons {
   min-width: 60%;
