@@ -15,7 +15,7 @@
   flex-direction: row;
   min-width: 100%;
   min-height: auto;
-  background-image: url("../public/background.jpeg");
+  background-image: url("../public/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
