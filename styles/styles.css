@@ -29,7 +29,7 @@
 .title-photo-container {
   display: flex;
   width: 400px;
-  height: 500px;
+  height: 600px;
   margin: 40px;
   background-color: hsl(47, 77%, 54%);
   border-radius: 10px;
@@ -48,13 +48,15 @@
   background: #ff4a4a;
   font-size: 30px;
   font-weight: 700;
-  padding: 10px;
   font-family: "Libre Baskerville", serif;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5 px;
 }
 
 .title h2 {
   margin-left: 20px;
-  padding: 1px;
+  margin-top: 5px;
   font-family: "Titilium-web", sans-serif;
 }
 
@@ -62,9 +64,8 @@
   width: 40px;
   height: 40px;
   position: relative;
-  margin-left: 5px;
-  margin-top: 30px;
-  margin-bottom: -20px;
+  margin-left: -100px;
+  margin-top: 80px;
   z-index: 2;
 }
 
@@ -109,10 +110,36 @@
 
 /** Interests section styling **/
 
+.interests-container {
+  background-color: rgb(25, 27, 26);
+  padding: 5px;
+  border-radius: 10px;
+  height: 100%;
+  color: white;
+}
+
+.interests-container h2 {
+  margin-left: 20px;
+  font-family: "Titilium-web", sans-serif;
+}
+
 .interests {
-  display: flex;
-  flex-direction: column;
-  filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.interests img {
+  width: 50px;
+  height: 50px;
+}
+
+.interests div {
+  margin: 10px;
 }
 
 /** Animations CSS **/
