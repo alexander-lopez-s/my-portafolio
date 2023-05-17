@@ -157,6 +157,21 @@
 
 /** Interests container **/
 
+.interests-container {
+  animation-name: fade-out;
+  animation-duration: 3s;
+}
+
+@keyframes fade-out {
+  from {
+    background-color: white;
+  }
+
+  to {
+    background-color: #070707;
+  }
+}
+
 .interests-container:hover {
   animation: shake 0.9s;
   cursor: default;
