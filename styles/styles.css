@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 
 * {
   padding: 0;
@@ -142,6 +143,45 @@
 
 .interests div {
   margin: 10px;
+}
+
+/** Biography styling **/
+
+.section-container {
+  width: 100%;
+}
+
+.biography-container {
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.brief-biography {
+  width: 50%;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 1px 30px 60px -12px inset,
+    rgba(0.1, 0.1, 0.1, 0.3) 0.1px 18px 36px -18px inset;
+  background-color: rgb(210, 217, 221);
+  border-radius: 10px;
+}
+
+.brief-biography p {
+  font-size: 18px;
+  font-family: "Comfortaa", cursive;
+}
+
+.brief-biography span {
+  font-size: 40px;
+  font-family: "Comfortaa", cursive;
+  color: rgb(36, 94, 74);
+}
+
+.studies {
+  width: 50%;
+  padding: 20px;
+  font-family: "Comfortaa", cursive;
 }
 
 /** Animations CSS **/
