@@ -274,13 +274,3 @@
   color: blue;
   font-family: "Titilium-web", sans-serif;
 }
-
-/** Animations CSS **/
-
-.photo-container img:hover {
-  filter: grayscale(75%);
-}
-
-.social-media-icons img:hover {
-  filter: hue-rotate(180deg);
-}
