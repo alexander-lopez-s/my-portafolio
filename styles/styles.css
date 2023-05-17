@@ -17,7 +17,7 @@
   flex-direction: row;
   min-width: 100%;
   min-height: auto;
-  background-image: url("../public/background.png");
+  background-image: url("../public/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -34,7 +34,7 @@
   width: 400px;
   height: 610px;
   margin: 40px;
-  background-color: hsl(47, 77%, 54%);
+  background-color: white;
   border-radius: 10px;
   box-shadow: rgba(0.1, 0.1, 0.1, 0.35) 1px 5px 15px;
 }
@@ -52,7 +52,7 @@
   text-align: center;
   padding: 5px;
   border-radius: 5px;
-  background-color: #ff564a;
+  background-color: #080808;
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -116,11 +116,11 @@
 /** Interests section styling **/
 
 .interests-container {
-  background-color: rgb(25, 27, 26);
   border-radius: 10px;
   margin-top: 15px;
   height: 100%;
   color: white;
+  background-color: #080808;
 }
 
 .interests-container h2 {
@@ -193,6 +193,7 @@
 .studies {
   width: 50%;
   padding: 20px;
+  margin-left: 15px;
 }
 
 .studies h3 {
@@ -200,13 +201,14 @@
   font-size: 30px;
   padding: 20px;
   margin-top: 15px;
-  color: rgb(4, 71, 4);
+  color: rgb(238, 248, 238);
 }
 
 .studies p {
   line-height: 30px;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
+  color: antiquewhite;
 }
 
 /** Repositories Styles **/
@@ -224,13 +226,16 @@
   font-family: "Comfortaa", cursive;
   font-size: 30px;
   margin-top: 15px;
-  color: rgb(4, 71, 4);
+  color: rgb(238, 248, 238);
 }
 
 .skills ul li {
   font-size: 18px;
   font-family: "Titilium-web", sans-serif;
   list-style: none;
+  padding: 3px;
+  border-radius: 5px;
+  color: antiquewhite;
 }
 
 .links {
@@ -254,12 +259,14 @@
   font-family: "Comfortaa", cursive;
   font-size: 30px;
   margin-top: 15px;
-  color: rgb(4, 71, 4);
+  color: rgb(238, 248, 238);
 }
 
 .repo-container h2 {
   font-weight: lighter;
   font-size: 20px;
+  background-color: rgb(238, 248, 238);
+  padding: 5px;
 }
 
 .weather-app {
