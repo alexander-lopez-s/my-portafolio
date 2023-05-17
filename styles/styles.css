@@ -209,6 +209,46 @@
   font-size: 18px;
 }
 
+/** Repositories Styles **/
+
+.skills-repositories {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills {
+  width: 50%;
+}
+
+.skills h1 {
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  margin-top: 15px;
+  color: rgb(4, 71, 4);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.repo-container img {
+  width: 275px;
+  height: 190px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.repo-container h1 {
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  margin-top: 15px;
+  color: rgb(4, 71, 4);
+}
+
 /** Animations CSS **/
 
 .photo-container img:hover {
