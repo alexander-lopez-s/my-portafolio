@@ -217,7 +217,7 @@
 }
 
 .skills {
-  width: 50%;
+  width: 28%;
 }
 
 .skills h1 {
@@ -225,6 +225,11 @@
   font-size: 30px;
   margin-top: 15px;
   color: rgb(4, 71, 4);
+}
+
+.skills ul li {
+  font-size: 18px;
+  font-family: "Titilium-web", sans-serif;
 }
 
 .links {
@@ -236,9 +241,9 @@
 }
 
 .repo-container img {
-  width: 275px;
-  height: 190px;
-  margin: 10px;
+  width: 200px;
+  height: 150px;
+  margin: 5px;
   border-radius: 5px;
 }
 
@@ -247,6 +252,12 @@
   font-size: 30px;
   margin-top: 15px;
   color: rgb(4, 71, 4);
+}
+
+.repo-container h2 {
+  font-weight: lighter;
+  font-family: "Titilium-web", sans-serif;
+  font-size: 20px;
 }
 
 /** Animations CSS **/
