@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 * {
   padding: 0;
@@ -16,7 +17,7 @@
   flex-direction: row;
   min-width: 100%;
   min-height: auto;
-  background-image: url("../public/background.jpg");
+  background-image: url("../public/background.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -46,14 +47,15 @@
 }
 
 .title h1 {
-  color: #f2f2f2;
-  background: #ff4a4a;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
-  font-family: "Libre Baskerville", serif;
   text-align: center;
   padding: 5px;
   border-radius: 5px;
+  background-color: #ff564a;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .title h2 {
@@ -116,12 +118,13 @@
 .interests-container {
   background-color: rgb(25, 27, 26);
   border-radius: 10px;
-  margin-top: 5px;
+  margin-top: 15px;
   height: 100%;
   color: white;
 }
 
 .interests-container h2 {
+  margin-top: 15px;
   margin-left: 20px;
   font-family: "Titilium-web", sans-serif;
 }
@@ -137,8 +140,8 @@
 }
 
 .interests img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .interests div {
@@ -178,10 +181,32 @@
   color: rgb(36, 94, 74);
 }
 
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(150, 150, 204);
+  border-radius: 50%;
+  display: inline-block;
+  border: 0.5px solid black;
+}
+
 .studies {
   width: 50%;
   padding: 20px;
+}
+
+.studies h3 {
   font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  padding: 20px;
+  margin-top: 15px;
+  color: rgb(4, 71, 4);
+}
+
+.studies p {
+  line-height: 30px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
 }
 
 /** Animations CSS **/
