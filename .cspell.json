@@ -23,7 +23,10 @@
     "Oostende",
     "surroundings",
     "divs",
-    "Cristobal"
+    "Cristobal",
+    "Titilium",
+    "pokeball",
+    "Cris"
   ],
   "ignorePaths": [
     "node_modules/**",
