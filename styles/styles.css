@@ -52,7 +52,7 @@
   text-align: center;
   padding: 5px;
   border-radius: 5px;
-  background-color: #080808;
+  background-color: #070707;
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -120,7 +120,7 @@
   margin-top: 15px;
   height: 100%;
   color: white;
-  background-color: #080808;
+  background-color: #070707;
 }
 
 .interests-container h2 {
@@ -166,7 +166,7 @@
   padding: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 1px 30px 60px -12px inset,
     rgba(0.1, 0.1, 0.1, 0.3) 0.1px 18px 36px -18px inset;
-  background-color: rgb(189, 255, 214);
+  background-color: rgb(236, 215, 122);
   border-radius: 10px;
 }
 
@@ -178,7 +178,8 @@
 .brief-biography span {
   font-size: 40px;
   font-family: "Comfortaa", cursive;
-  color: rgb(36, 94, 74);
+  color: rgb(20, 4, 92);
+  font-weight: bolder;
 }
 
 .dot {
@@ -233,7 +234,6 @@
   font-size: 18px;
   font-family: "Titilium-web", sans-serif;
   list-style: none;
-  padding: 3px;
   border-radius: 5px;
   color: antiquewhite;
 }
@@ -265,21 +265,21 @@
 .repo-container h2 {
   font-weight: lighter;
   font-size: 20px;
-  background-color: rgb(238, 248, 238);
   padding: 5px;
+  color: aliceblue;
 }
 
 .weather-app {
-  color: red;
+  color: rgb(255, 238, 0);
   font-family: "Titilium-web", sans-serif;
 }
 
 .youtube {
-  color: rgb(88, 10, 43);
+  color: rgb(247, 141, 185);
   font-family: "Titilium-web", sans-serif;
 }
 
 .pics-finder {
-  color: blue;
+  color: rgb(102, 247, 18);
   font-family: "Titilium-web", sans-serif;
 }
