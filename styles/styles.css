@@ -15,7 +15,7 @@
 .main-container {
   display: flex;
   flex-direction: row;
-  max-width: auto;
+  width: 100%;
   height: auto;
   background-image: url("../public/background.jpg");
   background-size: cover;
