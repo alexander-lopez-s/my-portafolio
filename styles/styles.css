@@ -15,8 +15,8 @@
 .main-container {
   display: flex;
   flex-direction: row;
-  min-width: 100%;
-  min-height: auto;
+  max-width: auto;
+  height: auto;
   background-image: url("../public/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -162,7 +162,7 @@
 }
 
 .brief-biography {
-  width: 50%;
+  width: 80%;
   padding: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 1px 30px 60px -12px inset,
     rgba(0.1, 0.1, 0.1, 0.3) 0.1px 18px 36px -18px inset;
@@ -192,7 +192,7 @@
 }
 
 .studies {
-  width: 50%;
+  width: 70%;
   padding: 20px;
   margin-left: 15px;
 }
@@ -220,7 +220,7 @@
 }
 
 .skills {
-  width: 28%;
+  width: 30%;
 }
 
 .skills h1 {
@@ -230,12 +230,36 @@
   color: rgb(238, 248, 238);
 }
 
-.skills ul li {
+.skills span {
   font-size: 18px;
   font-family: "Titilium-web", sans-serif;
-  list-style: none;
   border-radius: 5px;
-  color: antiquewhite;
+  line-height: 30px;
+}
+
+.one {
+  color: #f7ecec;
+  background-color: rgb(10, 10, 10);
+}
+
+.two {
+  color: #080808;
+  background-color: rgb(236, 221, 10);
+}
+
+.three {
+  color: #020202;
+  background-color: rgb(96, 204, 86);
+}
+
+.four {
+  color: #ededf8;
+  background-color: rgb(2, 51, 94);
+}
+
+.five {
+  color: #0e0d0c;
+  background-color: rgb(236, 155, 5);
 }
 
 .links {
@@ -247,8 +271,8 @@
 }
 
 .repo-container img {
-  width: 200px;
-  height: 150px;
+  width: 180px;
+  height: 130px;
   margin: 5px;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;

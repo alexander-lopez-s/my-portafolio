@@ -1,0 +1,222 @@
+@media screen and (max-width: 1435px) {
+  .brief-biography span {
+    font-weight: lighter;
+    font-size: 30px;
+  }
+
+  .brief-biography p {
+    font-size: 16px;
+  }
+
+  .skills h1,
+  .studies h3,
+  .repo-container h1 {
+    font-size: 20px;
+  }
+
+  .studies p,
+  .skills ul li {
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #img-1,
+  #img-2,
+  #img-3 {
+    width: 180px;
+    height: 140px;
+  }
+
+  .biography-container {
+    margin-top: 40px;
+    padding: 1px;
+  }
+}
+
+@media screen and (max-width: 1387px) {
+  .title-photo-container {
+    height: auto;
+  }
+
+  .interests {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .interests img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .biography-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .brief-biography {
+    min-width: 100%;
+  }
+
+  .skills-repositories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #img-1,
+  #img-2,
+  #img-3 {
+    width: 150px;
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 1384px) {
+  .title-photo-container {
+    width: 98%;
+    height: 900px;
+    background-color: black;
+    color: white;
+  }
+
+  .interests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .interests img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .studies p {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .skills-repositories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1px;
+    padding: 1px;
+  }
+
+  .title-photo-container {
+    width: 90%;
+    height: auto;
+  }
+
+  .title {
+    width: 60%;
+  }
+
+  .title h1,
+  .title h2,
+  .title li {
+    font-size: 22px;
+  }
+
+  .title h1 {
+    font-size: 30px;
+  }
+
+  .photo-container img {
+    width: 300px;
+    height: 420px;
+  }
+
+  .interests-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .interests {
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+  }
+
+  .skills span,
+  .repo-container h2 {
+    font-size: 24px;
+  }
+
+  .brief-biography p span,
+  .studies h3,
+  .skills h1,
+  .repo-container h1 {
+    font-size: 40px;
+  }
+
+  .brief-biography p,
+  .studies p {
+    font-size: 24px;
+  }
+
+  .skills-repositories {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skills {
+    width: 50%;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .title-photo-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: aliceblue;
+    color: black;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .skills-repositories {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photo-container {
+    background-color: blue;
+    position: absolute;
+    margin-left: 350px;
+  }
+
+  .photo-container img {
+    width: 250px;
+    height: 320px;
+  }
+}
