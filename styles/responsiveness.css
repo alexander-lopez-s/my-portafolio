@@ -29,8 +29,8 @@
   #img-1,
   #img-2,
   #img-3 {
-    width: 180px;
-    height: 140px;
+    width: 140px;
+    height: 120px;
   }
 
   .biography-container {
@@ -83,8 +83,6 @@
   .title-photo-container {
     width: 98%;
     height: 900px;
-    background-color: rgb(17, 17, 17);
-    color: white;
   }
 
   .interests {
@@ -218,5 +216,12 @@
   .photo-container img {
     width: 250px;
     height: 320px;
+  }
+
+  .skills li:hover,
+  .specific-info li:hover,
+  .studies p:hover {
+    background-color: transparent;
+    transform-origin: left bottom;
   }
 }

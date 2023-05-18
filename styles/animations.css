@@ -147,14 +147,6 @@
   border-radius: 5px;
 }
 
-.skills li:hover {
-  transform: scale(1.1);
-  background-color: rgb(255, 236, 127);
-  border-radius: 5px;
-  transform-origin: right bottom;
-  color: black;
-}
-
 /** Interests container **/
 
 .interests-container {
