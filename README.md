@@ -30,7 +30,7 @@
 
 ## Technologies
 
-- VSC code
+- VS code
 - JavaScript
 - CSS
 - HTML
