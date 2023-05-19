@@ -23,8 +23,8 @@
 
 ## General info
 
-> This personal portafolio is reponsive animated website containing a brief
-> biografy, some personal information, studies timeline and work samples.
+> This personal portafolio is responsive animated website containing a brief
+> biography, some personal information, studies timeline and work samples.
 
 ## Sample
 
