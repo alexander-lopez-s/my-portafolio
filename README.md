@@ -9,13 +9,12 @@
 - [My personal portafolio](#my-personal-portafolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
-  - [Screenshots](#screenshots)
+  - [Sample](#sample)
   - [Technologies](#technologies)
   - [Setup](#setup)
   - [Code Examples](#code-examples)
   - [Features](#features)
   - [Status](#status)
-  - [Inspiration](#inspiration)
   - [Contact](#contact)
   - [Instructions for use](#instructions-for-use)
   - [Code Quality Checks](#code-quality-checks)
@@ -24,19 +23,18 @@
 
 ## General info
 
-> A short description
+> This personal portafolio is reponsive animated website containing a brief
+> biografy, some personal information, studies timeline and work samples.
 
-## Screenshots
-
-![Example screenshot](./planning/screenshot.jpg)
+## Sample
 
 ## Technologies
 
-- Node 14.16.0
 - VSC code
 - JavaScript
-- ...
-- ...
+- CSS
+- HTML
+- Netlify
 
 ## Setup
 
@@ -44,35 +42,43 @@
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```HTML
+   <div class="interest-item">
+   <p>Play the piano</p>
+   <img src="./public/piano.png" alt="piano" />
+   </div>
+```
+
+```CSS
+.title h1 {
+  animation: waviy 5s infinite;
+}
+```
+
+```JS
+setInterval(function () {
+  let random = Math.floor(Math.random() * 3);
+  image.src = images[random];
+},
 ```
 
 ## Features
 
 List of features ready and Todos for future development
 
--
--
--
+- A contact form section
 
 To-do list:
 
--
--
+- A HTML form with JavaScript functionalities
 
 ## Status
 
-Project is: _in progress_
-
-## Inspiration
-
-Project by freeCodeCamp.org
+Project is: _Completed_
 
 ## Contact
 
-By [Name]
+By [Cristobal Lopez](https://github.com/cristobal-lopez/)
 
 ## Instructions for use
 
