@@ -28,7 +28,7 @@
 
 ## Sample
 
-https://github.com/cristobal-lopez/my-portafolio/assets/97364283/f4c5418f-4908-4422-8013-2c47aef22b25
+https://github.com/cristobal-lopez/my-portafolio/assets/97364283/2166f35d-cd5c-4550-95be-c8be044f5911
 
 ## Technologies
 
