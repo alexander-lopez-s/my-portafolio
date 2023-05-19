@@ -1,7 +1,7 @@
 /** Animations CSS **/
 
 .title h1 {
-  animation: waviy 5s infinite;
+  animation: waviy 7s infinite;
 }
 
 @keyframes waviy {
@@ -12,7 +12,7 @@
   }
 
   20% {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
   }
 }
 
@@ -65,6 +65,23 @@
 }
 
 /** Repository container **/
+
+.repo-container {
+  animation-name: fade-out-repositories;
+  animation-duration: 3s;
+}
+
+@keyframes fade-out-repositories {
+  from {
+    transform: rotate(0deg) translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: rotate(0deg) translateY(0%);
+    opacity: 1;
+  }
+}
 
 .repo-container img:hover {
   transform: scale(1.5);
@@ -130,6 +147,22 @@
   cursor: default;
 }
 
+.studies {
+  animation: slide-in-studies 1600ms;
+}
+
+@keyframes slide-in-studies {
+  from {
+    transform: rotate(-560deg) translateY(-200%);
+    opacity: 0;
+  }
+
+  to {
+    transform: rotate(0deg) translateY(0%);
+    opacity: 1;
+  }
+}
+
 .studies p:hover {
   transform: scale(1.1);
   cursor: default;
@@ -147,16 +180,27 @@
   border-radius: 5px;
 }
 
+.skills span:hover {
+  cursor: default;
+  background-color: rgb(255, 236, 127);
+  border-radius: 5px;
+  color: black;
+}
+
 /** Interests container **/
 
 .interests-container {
   animation-name: fade-out;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 
 @keyframes fade-out {
   from {
-    background-color: white;
+    background: linear-gradient(
+      109.6deg,
+      rgb(0, 37, 84) 11.2%,
+      rgba(0, 37, 84, 0.32) 100.2%
+    );
   }
 
   to {

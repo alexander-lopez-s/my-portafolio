@@ -17,7 +17,7 @@
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-image: url("../public/background.jpg");
+  background-image: url("https://images.pling.com/img/00/00/52/38/08/1328874/129a5f7a25e3cbf08cf6cbce5de7bdd2a609.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -34,9 +34,11 @@
   width: 400px;
   height: 610px;
   margin: 40px;
-  background-color: white;
+  background-color: rgb(115, 124, 121);
   border-radius: 10px;
   box-shadow: rgba(0.1, 0.1, 0.1, 0.35) 1px 5px 15px;
+  opacity: 0.7;
+  font-weight: bold;
 }
 
 .title {
@@ -166,8 +168,9 @@
   padding: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 1px 30px 60px -12px inset,
     rgba(0.1, 0.1, 0.1, 0.3) 0.1px 18px 36px -18px inset;
-  background-color: rgb(236, 215, 122);
+  background-color: rgb(196, 196, 196);
   border-radius: 10px;
+  opacity: 0.6;
 }
 
 .brief-biography p {
@@ -291,19 +294,5 @@
   font-size: 20px;
   padding: 5px;
   color: aliceblue;
-}
-
-.weather-app {
-  color: rgb(255, 238, 0);
-  font-family: "Titilium-web", sans-serif;
-}
-
-.youtube {
-  color: rgb(247, 141, 185);
-  font-family: "Titilium-web", sans-serif;
-}
-
-.pics-finder {
-  color: rgb(102, 247, 18);
-  font-family: "Titilium-web", sans-serif;
+  background-color: #0e0d0c;
 }
